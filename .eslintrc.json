@@ -6,15 +6,14 @@
   "extends": [
     "next",
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
     "react",
     "react-hooks",
     "jsx-a11y",
-    "import",
-    "tailwind"
+    "import"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
