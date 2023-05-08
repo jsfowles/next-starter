@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Starter
+This is a starter project for Next.js with TypeScript, ESLint, Prettier, and TailwindCSS.
 
-## Getting Started
+## Installation
+To get started with this project, clone the repository and run:
 
-First, run the development server:
+```npm install```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Available Scripts
+In the project directory, you can run:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **'npm run dev'**
+Runs the app in the development mode.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000 to view it in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **'npm run build'**
 
-## Learn More
+Builds the app for production to the .next folder.
 
-To learn more about Next.js, take a look at the following resources:
+### **'npm run start'**
+Starts the app in production mode.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open http://localhost:3000 to view it in the browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### **'npm run lint'**
+Runs ESLint to check for linting errors in .js, .jsx, .ts, and .tsx files.
 
-## Deploy on Vercel
+### **'npm run prettier'**
+Runs Prettier to format the code in the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **'npm run prepare'**
+Installs Husky git hooks for commit linting.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Dependencies
+
+- [@types/node](https://ghub.io/@types/node): TypeScript definitions for Node.js
+- [@types/react](https://ghub.io/@types/react): TypeScript definitions for React
+- [@types/react-dom](https://ghub.io/@types/react-dom): TypeScript definitions for React (react-dom)
+- [autoprefixer](https://ghub.io/autoprefixer): Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
+- [next](https://ghub.io/next): The React Framework
+- [postcss](https://ghub.io/postcss): Tool for transforming styles with JS plugins
+- [react](https://ghub.io/react): React is a JavaScript library for building user interfaces.
+- [react-dom](https://ghub.io/react-dom): React package for working with the DOM.
+- [tailwindcss](https://ghub.io/tailwindcss): A utility-first CSS framework for rapidly building custom user interfaces.
+
+## Dev Dependencies
+
+- [@typescript-eslint/eslint-plugin](https://ghub.io/@typescript-eslint/eslint-plugin): TypeScript plugin for ESLint
+- [@typescript-eslint/parser](https://ghub.io/@typescript-eslint/parser): An ESLint custom parser which leverages TypeScript ESTree
+- [eslint](https://ghub.io/eslint): An AST-based pattern checker for JavaScript.
+- [eslint-config-next](https://ghub.io/eslint-config-next): ESLint configuration used by NextJS.
+- [eslint-config-prettier](https://ghub.io/eslint-config-prettier): Turns off all rules that are unnecessary or might conflict with Prettier.
+- [eslint-plugin-import](https://ghub.io/eslint-plugin-import): Import with sanity.
+- [eslint-plugin-jsx-a11y](https://ghub.io/eslint-plugin-jsx-a11y): Static AST checker for accessibility rules on JSX elements.
+- [eslint-plugin-prettier](https://ghub.io/eslint-plugin-prettier): Runs prettier as an eslint rule
+- [eslint-plugin-react](https://ghub.io/eslint-plugin-react): React specific linting rules for ESLint
+- [eslint-plugin-react-hooks](https://ghub.io/eslint-plugin-react-hooks): ESLint rules for React Hooks
+- [husky](https://ghub.io/husky): Modern native Git hooks made easy
+- [prettier](https://ghub.io/prettier): Prettier is an opinionated code formatter
+- [typescript](https://ghub.io/typescript): TypeScript is a language for application scale JavaScript development
