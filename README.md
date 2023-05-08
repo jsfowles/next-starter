@@ -1,15 +1,19 @@
 # Next Starter
+
 This is a starter project for Next.js with TypeScript, ESLint, Prettier, and TailwindCSS.
 
 ## Installation
+
 To get started with this project, clone the repository and run:
 
-```npm install```
+`npm install`
 
 ## Available Scripts
+
 In the project directory, you can run:
 
 ### **'npm run dev'**
+
 Runs the app in the development mode.
 
 Open http://localhost:3000 to view it in the browser.
@@ -19,17 +23,21 @@ Open http://localhost:3000 to view it in the browser.
 Builds the app for production to the .next folder.
 
 ### **'npm run start'**
+
 Starts the app in production mode.
 
 Open http://localhost:3000 to view it in the browser.
 
 ### **'npm run lint'**
+
 Runs ESLint to check for linting errors in .js, .jsx, .ts, and .tsx files.
 
 ### **'npm run prettier'**
+
 Runs Prettier to format the code in the project.
 
 ### **'npm run prepare'**
+
 Installs Husky git hooks for commit linting.
 
 ## Dependencies
