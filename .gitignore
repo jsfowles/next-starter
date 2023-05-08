@@ -15,21 +15,39 @@
 # production
 /build
 
+# IDE-specific folders
+.idea/
+.vscode/
+*.sublime*
+*.iml
+*.ipr
+*.iws
+*.sw?
+*.swo
+
 # misc
 .DS_Store
 *.pem
+Thumbs.db
 
 # debug
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # local env files
-.env*.local
+.env
+.env.local
+.env.*.local
 
 # vercel
 .vercel
 
 # typescript
+dist
 *.tsbuildinfo
 next-env.d.ts
+
