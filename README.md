@@ -6,7 +6,9 @@ This is a starter project for Next.js with TypeScript, ESLint, Prettier, and Tai
 
 To get started with this project, clone the repository and run:
 
-`npm install`
+```bash
+npm install
+```
 
 ## Available Scripts
 
