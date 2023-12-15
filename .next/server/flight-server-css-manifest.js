@@ -1,0 +1,14 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/jsfowles/WebstormProjects/next-starter/src/app/layout.tsx": [
+      "/Users/jsfowles/WebstormProjects/next-starter/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/jsfowles/WebstormProjects/next-starter/src/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/jsfowles/WebstormProjects/next-starter/src/app/(home)/page": [
+      "/Users/jsfowles/WebstormProjects/next-starter/src/app/globals.css",
+      "/Users/jsfowles/WebstormProjects/next-starter/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
